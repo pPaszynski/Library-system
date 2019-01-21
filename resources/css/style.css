@@ -1,0 +1,160 @@
+body
+{
+    background-color: #404040;
+    /*background-color: whitesmoke;*/
+    font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    /*background-image: url("../../Textures/logo1.gif");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: contain;*/
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+#menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#topbar
+{
+    background-color: #128870;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+#topbarL
+{
+    background-image: url("../../Textures/drzewo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float:left;
+    padding: 20px;
+    width: 148px;
+    height: 150px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#sidebar
+{
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    padding:20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+}
+
+#content
+{
+    float: left;
+    padding: 40px;
+    width: 1000px;
+    background-color: #dedede;
+    min-height: 1580px;
+    text-align: justify;
+}
+
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    display: flex;
+    height: 30px;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.optionL
+{
+    font-size:18px;
+    height:25px;
+    padding: 10px;
+    border-bottom: 2px dotted #444444;
+}
+
+.optionL:hover
+{
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
+}
+
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+}
+.error
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:red;
+}
+.g-recaptcha
+{
+    display: inline-block;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana;
+    font-size: 10pt;
+    color: #003868;
+    background-image: url("../../Textures/background.png");
+    background-attachment: fixed;
+    /*position: absolute;*/
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    background-image: url("../../Textures/logo1.gif");
+    background-position: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 200px;
+    position: static;
+}
+#menu
+{
+    color: #ffffff;
+    position: absolute;
+    align-items: center;
+    margin-top: 160px;
+    /* margin-top: 160px; */
+    padding: inherit;
+}
+#topbar
+{
+
+}
+#sidebar
+{
+
+}
+#content
+{
+
+}
+#footer
+{
+
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    /* width: 150px; */
+    position: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.option:hover
+{
+    background: black;
+    opacity: 70%;
+    cursor: pointer;
+}
